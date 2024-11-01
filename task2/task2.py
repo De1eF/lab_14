@@ -2,20 +2,7 @@ from selenium import webdriver
 from selenium.webdriver.chrome.options import Options
 from bs4 import BeautifulSoup
 import time
-
-class Holiday(object):
-    date = ""
-    name = ""
-    
-    def __init__(self, date, name):
-        self.date = date
-        self.name = name
-    
-    def __str__(self):
-        s = ""
-        s += str(self.name) + ", "
-        s += str(self.date)
-        return s
+import HolidayClass as hld
 
 def getListOfholidays(country):
     holidayList = []
@@ -32,7 +19,7 @@ def getListOfholidays(country):
     holidayDatesList = holidayContainers[0].find_all_next('div', class_=["col-4"])
     holidayNamesList = holidayContainers[0].find_all_next('div', class_=["col-3"])
     for i in range(1, len(holidayDatesList)):
-        holidayList.append(Holiday(holidayDatesList[i].text.strip(), holidayNamesList[i].text.strip()))
+        holidayList.append(hld.Holiday(holidayDatesList[i].text.strip(), holidayNamesList[i].text.strip()))
         
     driver.quit()
     

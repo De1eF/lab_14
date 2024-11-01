@@ -1,14 +1,11 @@
-New Year's Day, Mon 01/01/2024
-Martin Luther King, Jr. Day, Mon 01/15/2024
-Washington's Birthday, Mon 02/19/2024
-Good Friday, Fri 03/29/2024
-Good Friday, Fri 03/29/2024
-Memorial Day, Mon 05/27/2024
-Juneteenth National Independence Day, Wed 06/19/2024
-Independence Day, Thu 07/04/2024
-Labour Day, Mon 09/02/2024
-Columbus Day, Mon 10/14/2024
-Indigenous Peoples' Day, Mon 10/14/2024
-Veterans Day, Mon 11/11/2024
-Thanksgiving Day, Thu 11/28/2024
-Christmas Day, Wed 12/25/2024
+New Year's Day, 2024-01-01
+International Women's Day, 2024-03-08
+International Workers' Day, 2024-05-01
+Easter Sunday, 2024-05-05
+Victory day over Nazism in World War II, 2024-05-08
+Pentecost, 2024-06-23
+Constitution Day, 2024-06-28
+Statehood Day, 2024-07-15
+Independence Day, 2024-08-24
+Defender of Ukraine Day, 2024-10-01
+(Gregorian and Revised Julian) Christmas, 2024-12-25
